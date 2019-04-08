@@ -26,7 +26,7 @@ use PHPMailer\PHPMailer\Exception;
     $mail->setFrom('info@afagamentos.com', 'Afagamentos.com - Tabela Florida');
     $mail->addAddress('info@afagamentos.com', 'Afagamentos.com - Tabela Florida');     // Add a recipient
     // Add a recipient
-    $mail->addReplyTo($_POST['email'], $_POST['name']);
+    $mail->addReplyTo(trim(strtolower($_POST['email'])), $_POST['name']);
     $mail->addBCC('pablo@camara.pt', 'Pablo Camara');     // Add a recipient
 
 
@@ -76,11 +76,11 @@ require 'template/head.php'; ?>
             <div class="col-12 contact_info send_message" style="padding: 10px" id="mensagem">
                 <h2>Envie-nos uma mensagem</h2>
                 <form class="form-inline contact_box" method="post" id="contactForm">
-                    <input type="text" class="form-control input_box" name="name" placeholder="Nome">
-                    <input type="text" class="form-control input_box" name="phone" placeholder="Contacto Telefonico">
-                    <input type="text" class="form-control input_box" name="email" placeholder="O seu endereço de Email">
-                    <input type="text" class="form-control input_box" name="subject" placeholder="Assunto">
-                    <textarea class="form-control input_box" name="message" placeholder="O que é que necessita? Explique o mais detalhadamente possível"></textarea>
+                    <input type="text" class="form-control input_box" name="name" placeholder="Nome" required>
+                    <input type="tel" pattern="^[2,9][0-9]{8}$" class="form-control input_box" name="phone" placeholder="Contacto Telefonico" required>
+                    <input type="email" class="form-control input_box" name="email" placeholder="O seu endereço de Email" required>
+                    <input type="text" class="form-control input_box" name="subject" placeholder="Assunto" required>
+                    <textarea class="form-control input_box" name="message" placeholder="O que é que necessita? Explique o mais detalhadamente possível" required></textarea>
                     <button type="submit" class="btn btn-default" name="sendmsg">Enviar</button>
                 </form>
             </div>
