@@ -29,9 +29,10 @@
             <div class="col-sm-4 footer_about">
               <h2>Links úteis</h2>
               <ul class="quick_link">
+                  <li><a href="/afagar-chao-preco-m2.php"><i class="fa fa-chevron-right"></i>Afagar chão Preço m2</a></li>
                   <li><a href="/afagar-chao.php"><i class="fa fa-chevron-right"></i>Afagar chão</a></li>
                   <li><a href="/afagar-e-envernizar-chao.php"><i class="fa fa-chevron-right"></i>Afagar e Envernizar chão</a></li>
-                  <li><a href="/afagar-chao-preco-m2.php"><i class="fa fa-chevron-right"></i>Afagar chão Preço m2</a></li>
+
               </ul>
             </div>
         </div>
