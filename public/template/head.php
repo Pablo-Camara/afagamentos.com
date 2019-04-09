@@ -116,7 +116,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/index.php">
                       <h2 style="padding: 0;margin: 0;font-size: 20px;">
                         <span style="color: #f6b60b">Afagamentos</span>.com
                       </h1>
