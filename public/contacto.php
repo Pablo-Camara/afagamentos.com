@@ -54,7 +54,7 @@ require 'template/head.php'; ?>
 <section class="banner_area" data-stellar-background-ratio="0.5">
     <h2>Contacto</h2>
     <ol class="breadcrumb">
-        <li><a href="index.php">Início</a></li>
+        <li><a href="/">Início</a></li>
         <li><a href="contacto.php" class="active">Contacto</a></li>
     </ol>
 </section>
@@ -74,7 +74,7 @@ require 'template/head.php'; ?>
         <div class="row contact_row">
 
             <div class="col-12 contact_info send_message" style="padding: 10px" id="mensagem">
-                <h2>Envie-nos uma mensagem</h2> 
+                <h2>Envie-nos uma mensagem</h2>
                 <form class="form-inline contact_box" method="post" id="contactForm">
                     <input type="text" class="form-control input_box" name="name" placeholder="Nome" required>
                     <input type="tel" pattern="^[2,9][0-9]{8}$" class="form-control input_box" name="phone" placeholder="Contacto Telefonico" required>

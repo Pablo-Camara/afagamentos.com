@@ -8,7 +8,7 @@ require 'template/head.php'; ?>
 <section class="banner_area" data-stellar-background-ratio="0.5">
     <h2>Afagar chão Preco m2</h2>
     <ol class="breadcrumb">
-        <li><a href="index.php">Início</a></li>
+        <li><a href="/">Início</a></li>
         <li><a href="afagar-chao-preco-m2.php" class="active">Afagar chão Preco m2</a></li>
     </ol>
 </section>
