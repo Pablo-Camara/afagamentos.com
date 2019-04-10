@@ -1,5 +1,5 @@
 <?php
-$title = ' - Afagar Chão Preco m2';
+$title = ' Afagar Chão Preco m2';
 $metaDescription = 'Prestamos eficazmente serviço de Afagar de Envernizar chão, soluções para todo o tipo de madeira, Orçamentos gratuitos, Preço de Afagar ou Envernizar chão pode variar de acordo com a area. 20 anos de experiência. Equipa especializada.';
 $replace2ndTitle = true;
 require 'template/head.php'; ?>
