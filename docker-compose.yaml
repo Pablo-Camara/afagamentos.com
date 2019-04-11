@@ -1,0 +1,9 @@
+version: '3'
+services:
+  afagamentos_tabelaflorida:
+    container_name: afagamentos_tabelaflorida_public
+    image: php:7.2-apache
+    volumes:
+      - ./public:/var/www/html
+    ports:
+      - 8080:80
