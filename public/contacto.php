@@ -13,25 +13,25 @@ use PHPMailer\PHPMailer\Exception;
     $mail->IsSMTP();
     $mail->CharSet = 'UTF-8';
 
-    $mail->Host       = "sv53.ifastnet2.org"; // SMTP server example
-    $mail->SMTPDebug  = 0;                     // enables SMTP debug information (for testing)
-    $mail->SMTPAuth   = true;                  // enable SMTP authentication
-    $mail->SMTPSecure = "ssl";
-    $mail->Port       = 290;                    // set the SMTP port for the GMAIL server
-    $mail->Username   = "info@afagamentos.com"; // SMTP account username example
-    $mail->Password   = "TFAfagamentos2019";        // SMTP account password example
+    $mail->Host       = "smtp.migadu.com";
+    $mail->SMTPDebug  = 0;
+    $mail->SMTPAuth   = true;
+    $mail->SMTPSecure = "tls";
+    $mail->Port       = 587;
+    $mail->Username   = "info@afagamentos.com";
+    $mail->Password   = "TFAfagamentos2019";
 
 
     //Recipients
-    $mail->setFrom('info@afagamentos.com', 'Afagamentos.com - Tabela Florida');
-    $mail->addAddress('info@afagamentos.com', 'Afagamentos.com - Tabela Florida');     // Add a recipient
+    $mail->setFrom('info@afagamentos.com', 'Afagamentos.com | Tabela Florida');
+    $mail->addAddress('info@afagamentos.com', 'Afagamentos.com - Tabela Florida');
     // Add a recipient
-    $mail->addReplyTo(trim(strtolower($_POST['email'])), $_POST['name']);
-    $mail->addBCC('pablo@camara.pt', 'Pablo Camara');     // Add a recipient
+    $mail->addReplyTo(trim(strtolower($_POST['email'])), trim($_POST['name']));
+    $mail->addBCC('pablo@camara.pt', 'Pablo Camara');
 
 
     // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->isHTML(true);
     $mail->Subject = 'Nova mensagem: ' . $_POST['subject'];
     $mail->Body    = 'Você tem uma nova mensagem de Afagamentos.com<br/><br/>';
     $mail->Body    .= 'Mensagem de: <b>' . $_POST['name'] . '</b><br/>';

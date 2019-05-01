@@ -12,7 +12,7 @@ services:
      links:
        - php
   php:
-      container_name: php7.2fpm
+      container_name: php72fpm
       restart: always
       image: php:7.2-fpm
       volumes:
