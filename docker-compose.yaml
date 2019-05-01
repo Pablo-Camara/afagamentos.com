@@ -2,6 +2,7 @@ version: '3'
 services:
   nginx:
      container_name: nginx
+     restart: always
      image: nginx:latest
      ports:
        - "80:80"
@@ -12,6 +13,7 @@ services:
        - php
   php:
       container_name: php7.2fpm
+      restart: always
       image: php:7.2-fpm
       volumes:
         - ./public:/public
