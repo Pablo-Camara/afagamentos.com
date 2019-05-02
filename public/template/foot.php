@@ -21,7 +21,7 @@
                     <ul class="my_address">
                         <li><a href="mailto:info@afagamentos.com" onClick="gtag_report_conversion_mail('mailto:info@afagamentos.com')"><i class="fa fa-envelope" aria-hidden="true"></i>info@afagamentos.com</a></li>
                         <li><a href="tel:00351967215705" onClick="gtag_report_conversion_tel('tel:00351967215705')"><i class="fa fa-phone" aria-hidden="true"></i>+ (351) 967 215 705</a></li>
-                        <li><a href="https://goo.gl/maps/FaeFJhNuVzr" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>R. Dona Mafalda 25, 2605-657 Belas</a></li>
+                        <li><a href="https://goo.gl/maps/DLt9TfM8pUxzs4of8" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>Av. Tílias 5 CV, 2635-312 Rio de Mouro</a></li>
                     </ul>
                     <p><?= date('d-m-Y') ?></p>
                 </address>
