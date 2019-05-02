@@ -1,5 +1,8 @@
 <?php
-$title = ' - Serviços';
+$replace2ndTitle = true;
+$title = 'Afagamentos e Envernizamentos | Serviços | Contactos';
+$metaDescription = 'Tratamento de pavimentos, Soalho; Taco; Lamparquet; Deck; Flutuantes; Arredores: Lisboa, Setúbal, Cascais, Sintra, Amadora, Loures, Montijo, Almada.';
+
 require 'template/head.php'; ?>
 
 <!-- Banner area -->

@@ -1,5 +1,4 @@
 <?php
-$title = ' - Portfolio';
 require 'template/head.php'; ?>
 
 <!-- Banner area -->

@@ -44,7 +44,10 @@ use PHPMailer\PHPMailer\Exception;
     $emailSent = true;
   }
 
-$title = ' - Contactos';
+$replace2ndTitle = true;
+$title = 'Afagamentos e Envernizamentos | Contactar Empresa';
+$metaDescription = 'Peça aqui o seu orçamento e saiba o preço por m2. Especialistas em Afagamentos e Envernizamentos, tratamento de pavimentos em madeira.';
+
 require 'template/head.php'; ?>
 
 

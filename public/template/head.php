@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+  $dtitle = 'Afagadores Profissionais | Empresa de Afagar Chão';
+  $ddesc = 'Especialistas em Afagamentos e Envernizamentos, tratamento de pavimentos em madeira. Soalho,Taco,Lamparquet,Deck,Flutuantes, Lisboa,Amadora,Sintra, Cascais..';
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -16,10 +19,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?= isset($metaDescription) ? $metaDescription : 'Fazemos afagamentos e envernizamentos em todo o tipo de madeira. 3 demãos de verniz. Orçamentos gratuitos.'?>" />
+    <meta name="description" content="<?= isset($metaDescription) ? $metaDescription : $ddesc ?>" />
     <meta property="og:image" content="http://afagamentos.com/images/facebook.com.png" />
 
-    <title>Afagamentos.com - <?= isset($replace2ndTitle) ? '' : 'Afagamento e Envernizamento de chão'?> <?= isset($title) ? $title : ''?></title>
+
+    <title><?= isset($replace2ndTitle) ? (isset($title) ? $title : $dtitle) : $dtitle ?></title>
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />

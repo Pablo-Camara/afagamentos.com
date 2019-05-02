@@ -1,7 +1,8 @@
 <?php
-$title = ' Afagar Chão Preco m2';
-$metaDescription = 'Prestamos eficazmente serviço de Afagar de Envernizar chão, soluções para todo o tipo de madeira, Orçamentos gratuitos, Preço de Afagar ou Envernizar chão pode variar de acordo com a area. 20 anos de experiência. Equipa especializada.';
 $replace2ndTitle = true;
+$title = 'Afagadores Profissionais | Preço M2 | Orçamento Gratuito';
+$metaDescription = 'Peça aqui o seu orçamento e saiba o preço por m2. Especialistas em Afagamentos e Envernizamentos, tratamento de pavimentos em madeira.';
+
 require 'template/head.php'; ?>
 
 <!-- Banner area -->

@@ -1,6 +1,4 @@
 ﻿<?php
-$title = ' - Empresa de Afagar Chão';
-$metaDescription = 'Serviços de Afagar chão e Envernizar. Todo o tipo de madeira. Soalho,Taco,Lamparquet, Pavimentos Flutuantes, Decks Madeira.. Fazemos Manutenção e Aplicação.';
 require 'template/head.php'; ?>
 
     <!-- Slider area -->
